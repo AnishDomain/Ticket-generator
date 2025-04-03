@@ -1,38 +1,298 @@
-.App {
+
+main,.parentdiv{
+  background-image: url(./assets/images/background-mobile.png);
+  position: static;
+  background-size: cover;
+  height: 102vh;
+  width: 430px;
+  
+}
+
+.designtop{
+      position:absolute;
+      height:55px;
+      left: 308px;
+      top: 10px;
+      
+}
+.designbottom{
+  position:absolute;
+  height:200px;
+  top: 745px;
+  
+}
+
+h4{
+  display:block;
+  color: #fff;
+  text-shadow: black;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 20px;
+  padding-left: 6px;
   text-align: center;
+
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+P{
+  color: #BEBEBE;
+  text-shadow: black;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0px ;
+  padding-bottom: 20px;
+  padding-left: 1px;
+  text-align: center;
+  
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+label{
+   
+   color: #BEBEBE;
+   font-size: 22px;
+   padding-left: 5px;
+   
+   
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.upload-box {
+  border: 2px dashed #8e8e8e;
+  border-radius: 6px;
+  margin-top: 9px;
+  padding: 25px 30px;
+  text-align: center;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.05); 
+  cursor: pointer;
+}
+
+.uplaodicon{
+  height: 16px;
+}
+
+.choosefile{
+  background-color: #F87171  ;
+  margin-bottom:4px;
+  cursor: pointer;
+  
+}
+.iconinfo{
+  padding-top: 8px;
+  height: 23px;
+  display: inline-block;
+}
+
+.iconinfo-para{
+  font-size: 15px;
+  float: right;
+  padding: 8px 38px 0px 0px;
+}
+
+.inputform{
+   display:flex;
+   flex-direction: column;
+}
+
+.inputform label{
+  color:#fff;
+  padding: 7px 0px 7px 0px;
+}
+
+.inputform input{
+  border: 2px solid #8e8e8e;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.05); 
+  cursor: pointer;
+  width:360px;
+  height: 50px;
+  margin: 5px 0px 5px 30px
+  
+}
+
+.generatebutton{
+   height: 40px;
+   width: 360px;
+   border-radius: 15px;
+   margin: 15px 0px 6px 30px;
+   background-color: #F87171  ;
+   font-size: 12px;
+   font-weight: 700;
+   cursor: pointer;
+   
+
+
+   
+}
+
+
+
+.parentdiv,.logocontainer{
+  display: block;
+  padding-top: 20px;
+}
+.logocontainer img{
+
+  display: block;
+  position:relative;
+  left: 115px;
+  bottom:28px;
+  width:190px;
+  padding: 10px 12px 0px 11px;
+}
+
+.ticket {
+  margin: 50px 0px 0px 550px;
+}
+
+.ticket img{
+  height: 200px;
+  position: relative;
+  bottom: 200px;
+}
+.child1{
+  position: relative;
+  top: 220px;
+  left: 20px;
+}
+.child1 img{
+  height:28px;
+}
+
+.child1 p{
+  color: #BEBEBE;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
+  bottom: 198px;
+  left: 40px;
+  font-weight: 200;
+  font-size:13px;
+
+}
+.child2{
+  position: relative;
+  top: 238px;
+  left: 20px;
+
 }
 
-.App-link {
-  color: #61dafb;
+
+.child2 img{
+  height: 80px;
+  border-radius: 5px;
+}
+.child2 p{
+  color: #BEBEBE;
+  display: flex;
+  position: relative;
+  left: 90px;
+  bottom: 260px;
+  font-weight: 500;
+  font-size:20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.child3 p{
+  color: #BEBEBE;
+  position: relative;
+  right: 100px;
+  bottom: 320px;
+  transform: rotate(451deg);
+  font-weight: 300;
+
+}
+
+
+@media(min-width: 500px){
+  main,.parentdiv{
+    background-image: url(./assets/images/background-tablet.png);
+    height: 125vh;
+    width: 1525px;
+    }
+    .designtop{
+      position:absolute;
+      height:85px;
+      width: 400px;
+      left: 1230px;
+      top: 10px;
+      
+}
+.logocontainer img{
+
+  display: block;
+  position:relative;
+  left: 635px;
+  bottom:28px;
+  width:190px;
+  padding: 10px 12px 0px 11px;
+}
+label{
+   
+  color: #BEBEBE;
+  font-size: 22px;
+  padding-left: 540px;
+ 
+  
+}
+
+.upload-box {
+ border: 2px dashed #8e8e8e;
+ border-radius: 6px;
+ margin-top: 9px;
+ padding: 25px 30px;
+ width: 400px;
+ text-align: center;
+ color: #fff;
+ background: rgba(255, 255, 255, 0.05); 
+ cursor: pointer;
+ margin-left: 540px;
+}
+
+.iconinfo{
+  padding-top: 8px;
+  height: 23px;
+  display: inline-block;
+  padding-left: 540px;
+}
+
+.iconinfo-para{
+  font-size: 15px;
+  margin-right: 550px;
+  padding: 8px 38px 0px 0px;
+}
+
+
+.inputform label{
+ color:#fff;
+ padding: 7px 0px 7px 0px;
+ margin-left: 550px;
+}
+
+.inputform input{
+ border: 2px solid #8e8e8e;
+ border-radius: 15px;
+ background: rgba(255, 255, 255, 0.05); 
+ cursor: pointer;
+ width:450px;
+ height: 50px;
+ margin-left:550px;
+ 
+}
+
+.generatebutton{
+ 
+  margin-left:550px;
+  width: 450px;
+  font-size: 16px;
+  font-weight: 800;
   }
-  to {
-    transform: rotate(360deg);
+  .designbottom{
+    position:absolute;
+    height:200px;
+    width: 300px;
+    top: 745px;
   }
+       
 }
