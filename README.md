@@ -5,9 +5,13 @@ Ticket Generator Website
  Features:
 
  Generate unique tickets instantly
+ 
  Responsive design for mobile and desktop
+ 
  Integrated with RESTful APIs
+ 
  Routing with React Router DOM
+ 
  Component-based architecture for scalability
 
 Tech Stack:
@@ -23,7 +27,9 @@ Backend: JSON Server
 Screenshots:
 
 Homepage: http://imgur.com/a/2lgESAp
+
           https://imgur.com/a/RRQx86f
+          
 Ticket-page: https://imgur.com/a/gYBvTWT
 
 
