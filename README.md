@@ -30,9 +30,15 @@ Ticket-page: https://imgur.com/a/gYBvTWT
 Installation:
 
 bash
+
 Copy
+
 Edit
+
 git clone https://github.com/AnishDomain/Ticket-Generator.git
+
 cd Ticket-Generator
+
 npm install
+
 npm start
